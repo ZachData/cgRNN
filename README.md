@@ -1,5 +1,5 @@
 # cgRNN
-an implementation of the paper: "Gated Convolutional Recurrent Neural Networks for Multilingual Handwriting Recognition," by Theodore Bluche and Ronaldo Messina.
+An implementation of the paper: "Gated Convolutional Recurrent Neural Networks for Multilingual Handwriting Recognition," by Theodore Bluche and Ronaldo Messina.
 
 Find the paper here, it is quite well written:
 http://www.tbluche.com/files/icdar17_gnn.pdf
