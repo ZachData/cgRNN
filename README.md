@@ -19,7 +19,7 @@ https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate
 		https://www.youtube.com/watch?v=IcLEJB2pY2Y&t=4029s
     
 The positional encoding class within the model was taken directly. 
-Here is the reference for the class, please check it out:
+Here is the reference for it, please check it out:
 http://nlp.seas.harvard.edu/2018/04/03/attention.html
 
 	@inproceedings{opennmt,
