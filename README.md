@@ -15,24 +15,23 @@ The RNN of the model performs basic NLP to make sure that the characters create 
 
 Here are some refences I used, not including the countless official Pytorch docs:
 https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/bidirectional_recurrent_neural_network/main.py#L39-L58
-https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_rnn_gru_lstm.py
-		https://www.youtube.com/watch?v=IcLEJB2pY2Y&t=4029s
-    https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_rnn_gru_lstm.py
+		https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/Basics/pytorch_rnn_gru_lstm.py
 		https://www.youtube.com/watch?v=IcLEJB2pY2Y&t=4029s
     
-The positional encoding class within the model was taken directly. Here is the reference for the class:
-		http://nlp.seas.harvard.edu/2018/04/03/attention.html
-			positional encoder directly from here.
-				@inproceedings{opennmt,
-				  author    = {Guillaume Klein and
-				               Yoon Kim and
-				               Yuntian Deng and
-				               Jean Senellart and
-				               Alexander M. Rush},
-				  title     = {OpenNMT: Open-Source Toolkit for Neural Machine Translation},
-				  booktitle = {Proc. ACL},
-				  year      = {2017},
-				  url       = {https://doi.org/10.18653/v1/P17-4012},
-				  doi       = {10.18653/v1/P17-4012}
-				}
+The positional encoding class within the model was taken directly. 
+Here is the reference for the class, please check it out:
+http://nlp.seas.harvard.edu/2018/04/03/attention.html
+
+	@inproceedings{opennmt,
+	  author    = {Guillaume Klein and
+	               Yoon Kim and
+	               Yuntian Deng and
+	               Jean Senellart and
+	               Alexander M. Rush},
+	  title     = {OpenNMT: Open-Source Toolkit for Neural Machine Translation},
+	  booktitle = {Proc. ACL},
+	  year      = {2017},
+	  url       = {https://doi.org/10.18653/v1/P17-4012},
+	  doi       = {10.18653/v1/P17-4012}
+	}
 
