@@ -1,6 +1,3 @@
-'''
-laod utf8 (except ;)
-'''
 
 import os
 import time
