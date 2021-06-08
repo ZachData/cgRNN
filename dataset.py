@@ -46,7 +46,6 @@ def collate_fn_padd(batch):
 
 
 class IAM_Dataset(Dataset):
-    """kaggle Carvana Dataset"""
     def __init__(self, img_path, Data_path, transform=None):
         self.img_path = img_path
         self.Data_path = Data_path
